@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&family=Montserrat:wght@300&family=Pacifico&family=Raleway:wght@100;400;700&family=Water+Brush&display=swap');
+
+.vertical-text {
+  writing-mode: vertical-lr; 
+  text-orientation: mixed;
+  white-space: nowrap; 
+}
+
+html{
+  scroll-behavior: smooth;
+  scroll-snap-type: both proximity;
+}
+*{
+   box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.hometxt{
+  font-family: 'Water Brush', cursive;
+
+
+}
+p{
+  font-family:'Raleway', sans-serif;
+  line-break:loose;
+
+}
+body{
+  font-family: 'Open Sans', arial, sans-serif;
+  background:rgb(123, 158, 158);
+
+}
+*{
+  margin:0;
+  padding:0;
+}
